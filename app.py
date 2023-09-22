@@ -11,7 +11,6 @@ app = Flask(__name__) # initializing a flask app
 def homePage():
     return render_template("index.html")
 
-
 @app.route('/train',methods=['GET'])  # route to train the pipeline
 def training():
     os.system("python main.py")
