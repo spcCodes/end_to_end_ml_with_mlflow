@@ -5,6 +5,7 @@ from mlProject import logger
 from mlProject.utils.common import get_size
 import requests
 import time
+from pathlib import Path
 
 from mlProject.entity.config_entity import DataIngestionConfig
 

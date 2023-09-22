@@ -12,3 +12,16 @@
 7. Update the pipeline 
 8. Update the main.py
 9. Update the app.py
+
+
+
+MLFLOW_TRACKING_URI=https://dagshub.com/spcCodes/end_to_end_ml_with_mlflow.mlflow \
+MLFLOW_TRACKING_USERNAME=spcCodes \
+MLFLOW_TRACKING_PASSWORD=<> \
+python script.py
+
+export MLFLOW_TRACKING_URI=https://dagshub.com/spcCodes/end_to_end_ml_with_mlflow.mlflow
+
+export MLFLOW_TRACKING_USERNAME=spcCodes 
+
+export MLFLOW_TRACKING_PASSWORD=<>
