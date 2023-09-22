@@ -6,3 +6,10 @@ data_ingestion:
   source_URL: https://storage.googleapis.com/kaggle-data-sets/3769547/6520359/bundle/archive.zip?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=gcp-kaggle-com%40kaggle-161607.iam.gserviceaccount.com%2F20230922%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20230922T160339Z&X-Goog-Expires=259200&X-Goog-SignedHeaders=host&X-Goog-Signature=ca4ca8dcd5a430e3b39c804391b34265901efb9ea9f5f104c28eb08978222d21fc770bf554d6eb791d412f7d6beb954289c6f5767c22b251ef0ace252d412ade4bc81a346a8271cc7cc5e212fd9a6223799036f4fdbe4db01e6203796d1db6c0871ce3bc3e0693ba88a9dfec65000fc879d142aa95bb172da04648ff8d9b8d48bcf95e95162ce6fb54f5cb838bdb11cba09d81be950702d0c36c291473d3e1547430aab8795142158b6ef124cd7b2a3d73849f54b51bb3412554f32963c386b39deb883a993e0530f73c7b60596abe6f3f4976c8c6243504b50ffae2878c80fbe80d512c565d83cf6684d83e54d6d2fc960eb90b11b6da895a795582f023ef8f
   local_data_file: artifacts/data_ingestion/data.zip
   unzip_dir: artifacts/data_ingestion
+
+
+data_validation:
+  root_dir: artifacts/data_validation
+  unzip_data_dir: artifacts/data_ingestion/winequality.csv
+  STATUS_FILE: artifacts/data_validation/status.txt
+
